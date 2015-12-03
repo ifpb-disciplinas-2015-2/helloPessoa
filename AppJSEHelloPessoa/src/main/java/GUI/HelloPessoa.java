@@ -7,6 +7,7 @@
 package GUI;
 
 import Interface.IPessoa;
+import ServiceLocatorHelloPessoa.ServiceLocator;
 import javax.swing.JOptionPane;
 
 /**
@@ -99,7 +100,7 @@ public class HelloPessoa extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
+        ServiceLocator service = new ServiceLocator();
         
         pessoa.helloPessoa(jTextField1.getText());
         
