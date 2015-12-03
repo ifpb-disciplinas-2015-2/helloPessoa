@@ -15,6 +15,7 @@ import javax.swing.JOptionPane;
  */
 public class HelloPessoa extends javax.swing.JFrame {
 
+        IPessoa pessoa;
     /**
      * Creates new form HelloPessoa
      */
@@ -98,12 +99,11 @@ public class HelloPessoa extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        IPessoa pessoa = null;
         
         
         pessoa.helloPessoa(jTextField1.getText());
         
-        JOptionPane.showMessageDialog(this, "Olá" + pessoa);
+        JOptionPane.showMessageDialog(this, "Olá" );
         
 
 
