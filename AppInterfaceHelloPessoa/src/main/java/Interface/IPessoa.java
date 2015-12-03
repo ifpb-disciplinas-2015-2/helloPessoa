@@ -9,6 +9,8 @@ package Interface;
  *
  * @author Izabel Silva
  */
-public class IPessoa {
+public interface IPessoa {
+    
+    public String helloPessoa(String msg);
     
 }
