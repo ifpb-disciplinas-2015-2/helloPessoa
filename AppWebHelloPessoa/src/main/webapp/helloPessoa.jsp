@@ -12,9 +12,11 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <form action="controlador" method="get">
         <label>Digite seu nome: </label>
-        <input name="msg" type="text">
+        <input name="nome" type="text">
         <input type="submit" value="enviar"> 
+        </form>
+        
     </body>
 </html>

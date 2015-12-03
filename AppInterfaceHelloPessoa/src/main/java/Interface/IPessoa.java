@@ -11,6 +11,6 @@ package Interface;
  */
 public interface IPessoa {
     
-    public String helloPessoa(String msg);
+    public String helloPessoa(String nome);
     
 }
