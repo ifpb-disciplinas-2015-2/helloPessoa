@@ -1,4 +1,4 @@
-package newpackage;
+package service;
 
 
 import Interface.IPessoa;
@@ -18,7 +18,7 @@ import javax.ejb.Stateless;
 
 @Stateless
 @Remote(IPessoa.class)
-public class NewClass implements IPessoa{
+public class Service implements IPessoa{
 
     @Override
     public String helloPessoa(String nome) {
